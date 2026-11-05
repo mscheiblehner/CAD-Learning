@@ -1,23 +1,31 @@
 # Project 02 – Connecting Rod
 
 ## Overview
-A 3D CAD model of a connecting rod, created as part of the *Engineering Design and Material Selection* course at ETH Zurich.
+A Siemens NX modeling exercise completed as part of the *Engineering Design and Material Selection* course at ETH Zurich.
 
-The project focuses on modeling a mechanical component with two circular ends connected by a structural body.
+Building on the fundamentals introduced in the previous project, this exercise focused on creating a more detailed mechanical component using parametric sketches, solid modeling operations, and feature patterns.
 
 ## Software
 - Siemens NX
 
-## Model
-The model features:
-- Two circular mounting ends with different diameters
-- Multiple mounting holes on the larger end
-- A recessed section along the connecting body
-- Rounded edges and transitions
+## Modeling Process
+The connecting rod was developed step by step from a dimensioned 2D sketch, following the geometry and modeling instructions provided in the course.
 
-Connecting rods are commonly used in mechanical systems to transmit forces and motion between connected components, such as between a piston and crankshaft in an internal combustion engine.
+The modeling process included:
+- Creating and constraining the initial 2D profile
+- Extruding the sketch to form the base solid
+- Defining dimensional relationships using the Siemens NX Expression Editor
+- Creating additional geometry through sketches on existing part faces
+- Applying Boolean operations to add and remove material
+- Creating a recessed pocket and raised circular features
+- Using a circular feature pattern to arrange mounting holes
 
-This model was created as a CAD modeling exercise rather than as a validated component for a specific mechanical assembly.
+## Key Takeaways
+This project introduced me to a more structured and parametric modeling workflow.
+
+In particular, I learned how dimensional relationships can make a model easier to modify and how features and Boolean operations can be combined to build increasingly complex geometry.
+
+The model was created as a guided CAD exercise rather than independently designed or validated for a specific mechanical application.
 
 ## Preview
 <img width="1501" height="778" alt="3D CAD model of a connecting rod created in Siemens NX" src="https://github.com/user-attachments/assets/71d49e6d-aa69-4421-b7e4-43740d7b494e" />
