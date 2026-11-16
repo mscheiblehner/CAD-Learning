@@ -1,8 +1,8 @@
 # CAD Learning
 
-This repository documents my progress in computer-aided design (CAD), mechanical design, and 3D modeling throughout my mechanical engineering studies at ETH Zurich.
+A collection of CAD projects documenting my progress in 3D modeling and mechanical design during my Mechanical Engineering studies at ETH Zurich.
 
-I use this repository to track my development, gain experience with different CAD tools, and document projects ranging from introductory modeling exercises to more advanced mechanical components.
+The repository includes introductory tutorials, university coursework, and increasingly independent design work using Autodesk Fusion 360 and Siemens NX.
 
 ## Software
 - Autodesk Fusion 360
@@ -11,14 +11,15 @@ I use this repository to track my development, gain experience with different CA
 ## Projects
 
 ### Autodesk Fusion 360
-- [Water Bottle (v1.0)](water-bottle/v1.0)
+- [Water Bottle (v1.0)](water-bottle/v1.0) – Introduction to 3D modeling
 
 ### Siemens NX – Engineering Design and Material Selection
-- [Project 01 – Miniature Car Chassis](EDMS/project-01)
-- [Project 02 – Connecting Rod](EDMS/project-02)
+- [Project 01 – Miniature Car Chassis](EDMS/project-01) – Sketching, extrusion, and symmetry
+- [Project 02 – Connecting Rod](EDMS/project-02) – Parametric features and advanced modeling operations
+- [Project 03 – Custom Wheel (Double-Spoke Design)](EDMS/project-03) – Custom geometry and circular feature patterns
 
 ## About
 
-I am a Mechanical Engineering student at ETH Zurich, developing my CAD and mechanical design skills through coursework and independent projects.
+I am a Mechanical Engineering student at ETH Zurich, developing my CAD skills through practical projects and design exercises.
 
-This repository reflects my learning process, with projects added as I gain experience.
+This repository serves as a record of my technical development, from guided modeling tasks toward more independent mechanical design projects.
