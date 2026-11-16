@@ -21,5 +21,3 @@ The repository includes introductory tutorials, university coursework, and incre
 ## About
 
 I am a Mechanical Engineering student at ETH Zurich, developing my CAD skills through practical projects and design exercises.
-
-This repository serves as a record of my technical development, from guided modeling tasks toward more independent mechanical design projects.
