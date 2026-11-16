@@ -2,35 +2,36 @@
 
 ## Overview
 
-A customized wheel model created in Siemens NX as part of the *Engineering Design and Material Selection* course at ETH Zurich.
+A customized wheel model developed in Siemens NX as part of the *Engineering Design and Material Selection* course at ETH Zurich.
 
-The project builds on a **pre-existing CAD model provided by the course**, which included the basic wheel geometry. My contribution was the design and parametric modeling of a custom double-spoke configuration, consisting of five spoke pairs and ten spokes in total.
+Starting from a course-provided CAD model containing the basic wheel geometry, I designed and modeled a custom double-spoke configuration with five spoke pairs and ten spokes in total.
 
-The focus was on modifying an existing CAD model through fully constrained sketches, parametric relationships, Boolean operations, and feature patterns.
+Unlike the previous guided exercises, this project involved developing my own spoke geometry and determining how to integrate it into an existing parametric model.
 
 ## Software
 - Siemens NX
 
 ## Modeling Process
 
-Starting from the supplied wheel model, I developed the custom spoke geometry through the following steps:
+The custom spoke design was developed through the following steps:
 
-- Examining and modifying the existing wheel geometry
 - Designing a fully constrained, parametrically adjustable double-spoke sketch
-- Using reference geometry, angular dimensions, and expressions to define the spoke layout
+- Using reference geometry, angular dimensions, and expressions to control the spoke layout
 - Projecting existing circular edges to create accurate sketch boundaries
-- Using Boolean operations (*Subtract* and *Unite*) to remove material and construct the spokes
-- Applying a circular feature pattern with five instances at 72° intervals
-- Switching to the Variational pattern method to resolve a feature update issue
+- Applying Boolean operations (*Subtract* and *Unite*) to modify the wheel geometry
+- Creating a circular feature pattern with five instances at 72° intervals
+- Resolving a pattern update failure by switching from the Simple to the Variational method
 
 ## Key Takeaways
 
-This project strengthened my understanding of parametric CAD modeling, particularly how sketches, geometric constraints, and feature dependencies influence the final geometry.
+This project highlighted the difference between defining a sketch geometrically and creating a valid feature from it. Even a fully constrained sketch requires correctly closed and selected profiles for extrusion.
 
-I also learned the importance of selecting valid closed profiles for extrusion and managing feature dependencies when modifying an existing model.
+I also gained practical experience troubleshooting feature dependencies and understanding how different pattern methods affect the regeneration of geometry.
 
-The final wheel design is based on a course-provided starting model with a custom spoke configuration developed by me. It has not been independently validated for structural strength or manufacturing.
+Most importantly, the project gave me experience adapting an existing CAD model to accommodate a custom design rather than simply reproducing predefined geometry.
+
+The resulting wheel is an educational CAD design and has not been independently validated for structural strength or manufacturing.
 
 ## Preview
-<img width="847" height="837" alt="Custom double-spoke wheel designed in Siemens NX" src="https://github.com/user-attachments/assets/8b28604d-65b3-4e05-a17a-52074d296f26" />
 
+<img width="847" height="837" alt="Custom double-spoke wheel designed in Siemens NX" src="https://github.com/user-attachments/assets/8b28604d-65b3-4e05-a17a-52074d296f26" />
