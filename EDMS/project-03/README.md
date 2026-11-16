@@ -2,11 +2,11 @@
 
 ## Overview
 
-A customized wheel model developed in Siemens NX as part of the *Engineering Design and Material Selection* course at ETH Zurich.
+A custom wheel design developed in Siemens NX as part of the *Engineering Design and Material Selection* course at ETH Zurich.
 
-Starting from a course-provided CAD model containing the basic wheel geometry, I designed and modeled a custom double-spoke configuration with five spoke pairs and ten spokes in total.
+Starting from a course-provided wheel base containing the initial rim and hub geometry, I independently designed and modeled a double-spoke configuration featuring five spoke pairs and ten spokes in total.
 
-Unlike the previous guided exercises, this project involved developing my own spoke geometry and determining how to integrate it into an existing parametric model.
+The project focused on developing the spoke geometry, defining its parametric relationships, and integrating the design into the existing CAD model.
 
 ## Software
 - Siemens NX
@@ -16,21 +16,21 @@ Unlike the previous guided exercises, this project involved developing my own sp
 The custom spoke design was developed through the following steps:
 
 - Designing a fully constrained, parametrically adjustable double-spoke sketch
-- Using reference geometry, angular dimensions, and expressions to control the spoke layout
-- Projecting existing circular edges to create accurate sketch boundaries
-- Applying Boolean operations (*Subtract* and *Unite*) to modify the wheel geometry
-- Creating a circular feature pattern with five instances at 72° intervals
+- Defining geometric relationships using reference lines, angular dimensions, and expressions
+- Projecting existing circular edges to establish precise connections between the spokes, rim, and hub
+- Using Boolean operations (*Subtract* and *Unite*) to modify the base geometry and construct the spokes
+- Applying a circular feature pattern with five instances at 72° intervals
 - Resolving a pattern update failure by switching from the Simple to the Variational method
 
 ## Key Takeaways
 
-This project highlighted the difference between defining a sketch geometrically and creating a valid feature from it. Even a fully constrained sketch requires correctly closed and selected profiles for extrusion.
+This project demonstrated the importance of translating fully constrained sketches into valid 3D features. Even when all geometric constraints are satisfied, extrusion requires correctly defined and selected closed profiles.
 
-I also gained practical experience troubleshooting feature dependencies and understanding how different pattern methods affect the regeneration of geometry.
+I also gained practical experience troubleshooting feature dependencies and selecting suitable pattern methods when working with interconnected geometry.
 
-Most importantly, the project gave me experience adapting an existing CAD model to accommodate a custom design rather than simply reproducing predefined geometry.
+Compared with my previous guided CAD exercises, this project involved greater independence in geometric design and modeling decisions.
 
-The resulting wheel is an educational CAD design and has not been independently validated for structural strength or manufacturing.
+The resulting wheel is a CAD learning project and has not been structurally analyzed or validated for manufacturing.
 
 ## Preview
 
